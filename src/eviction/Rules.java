@@ -1,6 +1,6 @@
 package eviction;
 
-// eviction package having method for evication rules
+// eviction package having method for eviction rules
 public interface Rules<Key> {
 
     // having latest key used

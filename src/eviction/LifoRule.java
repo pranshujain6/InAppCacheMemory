@@ -6,11 +6,11 @@ import java.util.Map;
 public class LifoRule<Key> implements Rules<Key> {
 	
 	 private Dll<Key> dll;
-	    private Map<Key, DllNode<Key>> map;
+	 private Map<Key, DllNode<Key>> map;
 
-	public LifoRule(){
+	public LifoRule() {
 		 this.dll = new Dll<>();
-	      this.map = new HashMap<>();
+	     this.map = new HashMap<>();
 	}
 
 
